@@ -1,4 +1,4 @@
-import { Aksi, Fonar, Fonarik, NavLogo, New, Nojey, NojTitle, Prodaje, TopSection,} from "./components/comp"
+import { Aksi, Fonar, Fonarik, Footbg, NavLogo, New, Nojey, NojTitle, Prodaje, Share, TopSection,} from "./components/comp"
 import NavbarTop from "./components/navbarTop"
 import Stati from "./components/stati"
 
@@ -46,8 +46,16 @@ const App = () => {
         <Fonarik />
       </div>
 
-      <div className="bg-[#E5E5E5] text-black sm:p-[50px] p-[30px] ">
+      <div className="bg-[#E5E5E5] text-black sm:p-[50px] p-[30px]sm:p-[50px] p-[30px] ">
         <Fonar /> 
+      </div>
+
+      <div className="text-white  w-full sm:h-[50vh] h-[100vh ] ">
+        <Footbg />
+      </div>
+
+      <div className="bg-[#141414] text-[white] sm:p-[50px] p-[30px] h-[100vh ]">
+        <Share />
       </div>
     </div>
   )

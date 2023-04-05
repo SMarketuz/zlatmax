@@ -19,8 +19,9 @@ import stati4 from './stati4.png'
 import fona1 from './fona1.png'
 import fonar2 from './fonar2.png'
 import fonarjon from './fonarjon.png'
+import footbg from './footbg.png'
 
 
 export {logo , noj ,galochka ,bigcar ,chart ,belgi ,knif1 ,knif2 ,knif3 ,knif4 ,knif5 ,knif6, knifProd , bgimg , stati1 ,stati2 ,stati3 , stati4
-, fona1 , fonar2 ,fonarjon
+, fona1 , fonar2 ,fonarjon ,footbg
 }
